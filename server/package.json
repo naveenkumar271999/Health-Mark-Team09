@@ -1,0 +1,43 @@
+{
+  "name": "timetrack-server",
+  "version": "1.0.0",
+  "description": "Health Mark is a medical commerce platform built using the MERN (MongoDB, Express.js, React, Node.js) stack. It is designed to connect customers, doctors, vendors, and administrators within the healthcare industry.",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "task management",
+    "time tracking",
+    "productivity",
+    "to-do list"
+  ],
+  "author": "anc",
+  "license": "MIT",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.430.0",
+    "@sendgrid/mail": "^7.7.0",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "http": "^0.0.1-security",
+    "jest": "^29.6.4",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.6.4",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.9.5",
+    "nodemon": "^3.0.1",
+    "path": "^0.12.7",
+    "stripe": "^14.7.0",
+    "supertest": "^6.3.3"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.2.0"
+  }
+}
